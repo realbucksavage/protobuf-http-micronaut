@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: mnBackend
+  server:
+    cors:
+      enabled: true
+    configurations:
+      web:
+        allowedOrigins:
+          - http://localhost:3000
+
